@@ -16,14 +16,14 @@ func main() {
 
 	fmt.Println(c)
 
-	d := [3]int{1, 2, 3}
+	d := []int{1, 2, 3}
 
 	double(d)
 
 	fmt.Println(d)
 }
 
-func double(nums [3]int) {
+func double(nums []int) {
 	for i := range nums {
 		nums[i] *= 2
 	}
