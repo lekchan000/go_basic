@@ -1,4 +1,4 @@
-module github.com/lekchan000/go_basic
+module github.com/lekchan000/go_basic/Go-Basic
 
 go 1.24.1
 
